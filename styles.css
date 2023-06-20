@@ -10,6 +10,8 @@ body {
   -webkit-font-smoothing: antialised;
 }
 
+.container{}
+
 .header {
   justify-content: space-between;
   align-items: center;
@@ -27,7 +29,61 @@ span {
 }
 
 #hamburguer {
-  position: absolute;
-  width: 705px;
+  width: 350px;
   height: 1016px;
 }
+
+#main{
+  height: 100px;
+  width: 350px;
+  margin: 40px;
+
+}
+#conteudo{
+  display: flex;
+  
+
+}
+
+#main h2{
+  color: #EA0000;
+  font-size: 20px;
+  font-family: 'Galdeano', sans-serif;
+}
+#main h1{
+  font-family: 'Galada', cursive;
+  font-size: 40px;
+  display: flex;
+}
+span{
+  color: #FF9900;
+}
+#main p{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  
+}
+#price{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+}
+#price h3{
+  margin-right: 15px;
+  font-size: 27px;
+  color: #FF9900;
+}
+#price p{
+  font-size: 15px;
+  text-decoration: line-through;
+}
+button{
+  margin-top: 10px;
+  background-color: #EA0000;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
