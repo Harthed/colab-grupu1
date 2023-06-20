@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialised;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  font-family: Galada;
+  font-weight: 400;
+}
+
+span {
+  color: #ff9900;
+}
+
+#home {
+  color: #ff9900;
+}
+
+#hamburguer {
+  position: absolute;
+  width: 705px;
+  height: 1016px;
+}
