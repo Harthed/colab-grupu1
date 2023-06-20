@@ -8,7 +8,28 @@
 
 body {
   -webkit-font-smoothing: antialised;
+  background-color: #fce0b77e;
 }
+@keyframes shake{
+  0%{
+      transform: translateY(0%);
+  }
+  50%{
+      transform: translateY(5%);
+  }
+ 
+  100%{
+      transform: translateY(0%);
+  }
+} 
+
+@keyframes pulse{
+  0%{
+      transform:  scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+} 
+
 
 .container {
   width: 100%;
@@ -34,18 +55,22 @@ main {
   justify-content: space-between;
 }
 
+#main {
+  
+  width: 500px;
+  margin: 40px;
+
+}
 #home {
   color: #ff9900;
 }
 
 #hamburguer {
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 7rem);
+  animation: shake 10s infinite;
 }
 
-#main {
-  height: 100px;
-  width: 700px;
-}
+
 
 #main h2 {
   color: #ea0000;
@@ -54,7 +79,7 @@ main {
 }
 #main h1 {
   font-family: "Galada", cursive;
-  font-size: 40px;
+  font-size: 5rem;
 }
 span {
   color: #ff9900;
@@ -85,28 +110,13 @@ button {
   border-radius: 10px;
 }
 
-#main{
-  height: 100px;
-  width: 350px;
-  margin: 40px;
 
-}
 #conteudo{
   display: flex;
 
 
 }
 
-#main h2{
-  color: #EA0000;
-  font-size: 20px;
-  font-family: 'Galdeano', sans-serif;
-}
-#main h1{
-  font-family: 'Galada', cursive;
-  font-size: 40px;
-  display: flex;
-}
 span{
   color: #FF9900;
 }
@@ -137,5 +147,25 @@ button{
   padding: 15px;
   border-radius: 10px;
 
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+a{
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+button:hover{
+  cursor: pointer;
+  background-color: #8f0303;
+  transition: 0.4s;
+  animation: pulse 1s infinite;
 }
 
