@@ -10,15 +10,11 @@ body {
   -webkit-font-smoothing: antialised;
 }
 
-<<<<<<< HEAD
-.container{}
-=======
 .container {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
 }
->>>>>>> e1925774f96c6fd3b7e79ce6e9402f31fd3a1e6f
 
 .header {
   justify-content: space-between;
@@ -43,10 +39,6 @@ main {
 }
 
 #hamburguer {
-<<<<<<< HEAD
-  width: 350px;
-  height: 1016px;
-=======
   height: calc(100vh - 4rem);
 }
 
@@ -91,7 +83,6 @@ button {
   color: #ffff;
   padding: 15px;
   border-radius: 10px;
->>>>>>> e1925774f96c6fd3b7e79ce6e9402f31fd3a1e6f
 }
 
 #main{
@@ -102,7 +93,7 @@ button {
 }
 #conteudo{
   display: flex;
-  
+
 
 }
 
