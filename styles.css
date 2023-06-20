@@ -10,7 +10,15 @@ body {
   -webkit-font-smoothing: antialised;
 }
 
+<<<<<<< HEAD
 .container{}
+=======
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+>>>>>>> e1925774f96c6fd3b7e79ce6e9402f31fd3a1e6f
 
 .header {
   justify-content: space-between;
@@ -24,13 +32,66 @@ span {
   color: #ff9900;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #home {
   color: #ff9900;
 }
 
 #hamburguer {
+<<<<<<< HEAD
   width: 350px;
   height: 1016px;
+=======
+  height: calc(100vh - 4rem);
+}
+
+#main {
+  height: 100px;
+  width: 350px;
+}
+
+#main h2 {
+  color: #ea0000;
+  font-size: 20px;
+  font-family: "Galdeano", sans-serif;
+}
+#main h1 {
+  font-family: "Galada", cursive;
+  font-size: 40px;
+}
+span {
+  color: #ff9900;
+}
+#main p {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+}
+#price {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#price h3 {
+  margin-right: 15px;
+  font-size: 27px;
+  color: #ff9900;
+}
+#price p {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+button {
+  margin-top: 10px;
+  background-color: #ea0000;
+  color: #ffff;
+  padding: 15px;
+  border-radius: 10px;
+>>>>>>> e1925774f96c6fd3b7e79ce6e9402f31fd3a1e6f
 }
 
 #main{
